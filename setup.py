@@ -10,7 +10,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='cyclops',
+    name='kyklop',
 
     use_scm_version=True,
     setup_requires=['setuptools_scm'],
@@ -19,7 +19,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/fuentesfranco/cyclops',
+    url='https://github.com/fuentesfranco/kyklop',
 
     # Author details
     author='Ramon Fuentes Franco',
@@ -74,7 +74,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'cyclops = cyclops.cyclops:main',
+            'kyklop = kyklop.kyklop:main',
         ],
     },
 )
